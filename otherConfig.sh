@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # aliasの設定
-echo "alias ll='ls -lh'" >> ~/.bash_profile
-echo "alias la='ls -a'" >> ~/.bash_profile
+echo "alias ll='ls -lhF'" >> ~/.bash_profile
+echo "alias la='ls -aF'" >> ~/.bash_profile
 echo "alias mkdir='mkdir -p'" >> ~/.bash_profile
 echo "alias cp='cp -Riv'" >> ~/.bash_profile
 source ~/.bash_profile

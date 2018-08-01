@@ -35,9 +35,9 @@ brew install php@7.1
 brew install mysql
 
 # パスを通す
-echo "export PATH=$PATH:/usr/local/opt/php@7.1/bin" >> ~/.bash_profile
-echo "export PATH=$PATH:/usr/local/opt/php@7.1/sbin" >> ~/.bash_profile
-echo "export PATH=$PATH:/usr/local/bin/mysql/sbin" >> ~/.bash_profile
+echo 'export PATH=$PATH:/usr/local/opt/php@7.1/bin' >> ~/.bash_profile
+echo 'export PATH=$PATH:/usr/local/opt/php@7.1/sbin' >> ~/.bash_profile
+echo 'export PATH=$PATH:/usr/local/bin/mysql/sbin' >> ~/.bash_profile
 
 # Laravel環境構築
 # brew install composer
