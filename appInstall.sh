@@ -43,6 +43,8 @@ brew cask install cyberduck
 brew cask install coteditor
 brew cask install iterm2
 brew cask install vagrant
+brew cask install sequel-pro
+brew cask install mysqlworkbench
 
 # Mac App StoreのAppをインストール
 echo "Mac App StoeのAppをインストール"
