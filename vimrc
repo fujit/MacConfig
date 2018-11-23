@@ -59,6 +59,30 @@ set shiftwidth=2
 syntax on
 colorscheme industry
 
+" dein.vim
+if &compatible
+ set nocompatible
+endif
+" Add the dein installation directory into runtimepath
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
+
+if dein#load_state('~/.cache/dein')
+ call dein#begin('~/.cache/dein')
+
+ call dein#add('~/.cache/dein')
+ call dein#add('Shougo/deoplete.nvim')
+ if !has('nvim')
+   call dein#add('roxma/nvim-yarp')
+   call dein#add('roxma/vim-hug-neovim-rpc')
+ endif
+
+ call dein#end()
+ call dein#save_state()
+endif
+
+filetype plugin indent on
+syntax enable
+
 " マウスの有効化
 if has('mouse')
     set mouse=a
@@ -201,6 +225,7 @@ let g:syntastic_mode_map = { 'mode': 'passive',
                            \ 'active_filetypes': ['javascript'],
                            \ 'passive_filetypes': [] }
 
+let g:neocomplete#enable_at_startup = 1
 " カラースキームmolokai
 NeoBundle 'tomasr/molokai'
 
@@ -224,3 +249,12 @@ filetype plugin indent on
 
 " 未インストールのVimプラグインがある場合、インストールするかどうかを尋ねてくれるようにする設定・・・・・・3
 NeoBundleCheck
+
+" go setttings
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go'
+call plug#end()
+
+let g:go_fmt_command = "goimports"
+
+au FileType go setlocal sw=4 ts=4 sts=4 noet
