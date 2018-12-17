@@ -9,5 +9,4 @@ brew update
 brew -v
 
 . appInstall.sh
-. devConfig.sh
 . otherConfig.sh

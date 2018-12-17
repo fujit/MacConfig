@@ -7,10 +7,8 @@ source ~/.bashrc
 # Appをインストール
 echo "Appをインストール"
 
-# general 
+# general
 brew cask install google-chrome
-brew cask install evernote
-brew cask install dropbox
 brew cask install alfred
 brew cask install appcleaner
 brew cask install kindle
@@ -34,17 +32,17 @@ brew cask install atom
 brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install docker
-brew cask install sourcetree
-brew cask install intellij-idea
-brew cask install android-studio
-brew cask install hyper
 brew cask install mamp
-brew cask install cyberduck
 brew cask install coteditor
 brew cask install iterm2
 brew cask install vagrant
-brew cask install sequel-pro
-brew cask install mysqlworkbench
+brew cask install teamsql
+brew cask install inkdrop
+
+brew install macvim
+brew install tree
+brew install git
+brew install rmtrash
 
 # Mac App StoreのAppをインストール
 echo "Mac App StoeのAppをインストール"
@@ -53,4 +51,3 @@ brew install mas
 mas install 497799835 # Xcode
 mas install 568494494 # Pocket
 mas install 539883307 # LINE
-
