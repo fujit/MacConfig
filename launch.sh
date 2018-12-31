@@ -8,5 +8,5 @@ touch ~/.bash_profile
 brew update
 brew -v
 
-. appInstall.sh
-. otherConfig.sh
+bash appInstall.sh
+bash otherConfig.sh
