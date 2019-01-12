@@ -1,17 +1,5 @@
 #!/bin/sh
 
-# aliasの設定
-echo "alias ll='ls -lhF'" >> ~/.bash_profile
-echo "alias la='ls -laF'" >> ~/.bash_profile
-echo "alias mkdir='mkdir -p'" >> ~/.bash_profile
-echo "alias cp='cp -Riv'" >> ~/.bash_profile
-echo "alias rm='rmtrash'" >> ~/.bash_profile
-
-# パスの設定
-echo "export PS1='\u:\W $ '" >> ~/.bash_profile
-source ~/.bash_profile
-
-
 # Ricty
 brew tap sanemat/font
 brew install ricty
