@@ -7,7 +7,7 @@ ssh-keygen -t rsa
 # ~/.ssh/configに接続設定を追加
 cat ssh_config.txt >> ~/.ssh/config
 
-# 生成した秘密鍵に読み取り専用属性を与える  
+# 生成した秘密鍵に読み取り専用属性を与える
 cd ~/.ssh
 chmod 600 id_rsa
 
