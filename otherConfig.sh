@@ -6,6 +6,8 @@ brew install ricty
 cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
 fc-cache -vf
 
+brew cask install font-myrica
+
 # zshインストール
 # brew install zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting colordiff
 # which -a zsh
