@@ -26,16 +26,13 @@ brew cask install google-japanese-ime
 brew cask install kindle
 brew cask install qblocker
 brew cask install slack
-brew cask install diffmerger
 brew cask install thunderbird
 
 # developer
-brew cask install coteditor
 brew cask install docker
 brew cask install iterm2
 brew cask install virtualbox
 brew cask install visual-studio-code
-brew cask install dbeaver-community
 brew cask install owasp-zap
 
 brew install git
