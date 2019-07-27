@@ -1,14 +1,19 @@
- #!/bin/sh
+#!/bin/sh
 
-brew tap caskroom/cask
+# Homebrewをインストール
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew tap caskroom/cask1
 
 # brewcaskのダウンロード先を/Applicationsに変更
 echo export HOMEBREW_CASK_OPTS="--appdir=/Applications" >> ~/.bashrc
 source ~/.bashrc
 
-# Appをインストール
-echo "Appをインストール"
+touch ~/.zshrc
+echo export HOMEBREW_CASK_OPTS="--appdir=/Applications" >> ~/.zshrc
+source ~/.zshrc
 
+# Appをインストール
 # general
 brew cask install google-chrome
 brew cask install firefox
@@ -39,11 +44,26 @@ brew install git
 brew install macvim
 brew install rmtrash
 brew install tree
+brew install zshrc
+brew install bat
+brew install textql
+brew install jpegoptim
 
-# Mac App StoreのAppをインストール
-echo "Mac App StoeのAppをインストール"
-
+# Mac app
 brew install mas
-mas install 497799835 # Xcode
-mas install 568494494 # Pocket
-mas install 539883307 # LINE
+mas install 497799835  # Xcode
+mas install 568494494  # Pocket
+mas install 539883307  # LINE
+
+# font
+brew tap sanemat/font
+brew install ricty
+cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
+fc-cache -vf
+
+brew tap caskroom/fonts
+brew cask install font-myrica
+
+# 標準シェルをzshに変更
+echo /usr/local/bin/zsh >> /etc/shells
+chsh -s /usr/local/bin/zsh
