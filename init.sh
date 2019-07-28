@@ -13,7 +13,11 @@ touch ~/.zshrc
 echo export HOMEBREW_CASK_OPTS="--appdir=/Applications" >> ~/.zshrc
 source ~/.zshrc
 
-# Appをインストール
+
+####################
+# App
+####################
+
 # general
 brew cask install google-chrome
 brew cask install firefox
@@ -55,15 +59,32 @@ mas install 497799835  # Xcode
 mas install 568494494  # Pocket
 mas install 539883307  # LINE
 
+
+####################
 # font
+####################
+# Ricty
 brew tap sanemat/font
 brew install ricty
 cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
 fc-cache -vf
 
+# Myrica
 brew tap caskroom/fonts
 brew cask install font-myrica
 
 # 標準シェルをzshに変更
 echo /usr/local/bin/zsh >> /etc/shells
 chsh -s /usr/local/bin/zsh
+
+####################
+# PHP
+####################
+
+# Composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+chmod 777 /usr/local/bin/composer
+
+# php-cs-fixer
+composer global require friendsofphp/php-cs-fixer
