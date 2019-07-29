@@ -69,9 +69,9 @@ brew install ricty
 cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
 fc-cache -vf
 
-# Myrica
 brew tap caskroom/fonts
 brew cask install font-myrica
+brew cask install font-source-han-code-jp
 
 # 標準シェルをzshに変更
 echo /usr/local/bin/zsh >> /etc/shells
