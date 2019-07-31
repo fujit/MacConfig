@@ -44,8 +44,10 @@ brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install owasp-zap
 
+brew install python3
 brew install git
 brew install macvim
+brew install neovim
 brew install rmtrash
 brew install tree
 brew install zshrc
