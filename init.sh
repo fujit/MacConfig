@@ -23,14 +23,12 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install brave-browser
 brew cask install opera
-brew cask install 1password
 brew cask install bitwarden
 brew cask install alfred
 brew cask install amazon-music
 brew cask install appcleaner
 brew cask install cheatsheet
 brew cask install clipy
-brew cask install flux
 brew cask install google-japanese-ime
 brew cask install kindle
 brew cask install qblocker
