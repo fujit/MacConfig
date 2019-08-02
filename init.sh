@@ -80,6 +80,12 @@ echo /usr/local/bin/zsh >> /etc/shells
 chsh -s /usr/local/bin/zsh
 
 ####################
+# Vim
+####################
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh ./installer.sh ~/.cache/dein
+
+####################
 # PHP
 ####################
 
