@@ -83,6 +83,21 @@ chsh -s /usr/local/bin/zsh
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 sh ./installer.sh ~/.cache/dein
 
+
+####################
+# Go
+####################
+brew install go
+
+
+####################
+# Node.js
+####################
+brew install nodebrew
+mkdir -p ~/.nodebrew/src
+nodebrew install-binary latest
+nodebrew use `nodebrew ls`
+
 ####################
 # PHP
 ####################
