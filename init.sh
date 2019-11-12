@@ -49,9 +49,11 @@ brew install neovim
 brew install rmtrash
 brew install tree
 brew install zshrc
+brew install zplug
 brew install bat
 brew install textql
 brew install jpegoptim
+brew install faf
 
 # Mac app
 brew install mas
