@@ -73,6 +73,10 @@ brew tap caskroom/fonts
 brew cask install font-myrica
 brew cask install font-source-han-code-jp
 
+# nerd 用のフォント
+brew cask install font-hack-nerd-font
+cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+
 # 標準シェルをzshに変更
 echo /usr/local/bin/zsh >> /etc/shells
 chsh -s /usr/local/bin/zsh
