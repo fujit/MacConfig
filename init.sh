@@ -22,10 +22,10 @@ source ~/.zshrc
 brew cask install google-chrome
 brew cask install firefox
 brew cask install brave-browser
-brew cask install opera
 brew cask install bitwarden
 brew cask install alfred
 brew cask install amazon-music
+brew cask install spotify
 brew cask install appcleaner
 brew cask install cheatsheet
 brew cask install clipy
@@ -33,7 +33,7 @@ brew cask install google-japanese-ime
 brew cask install kindle
 brew cask install qblocker
 brew cask install slack
-brew cask install thunderbird
+brew cask install authy
 
 # developer
 brew cask install docker
@@ -42,9 +42,7 @@ brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install owasp-zap
 
-brew install python3
 brew install git
-brew install macvim
 brew install neovim
 brew install rmtrash
 brew install tree
