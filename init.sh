@@ -51,7 +51,8 @@ brew install zplug
 brew install bat
 brew install textql
 brew install jpegoptim
-brew install faf
+brew install fzf
+brew install tig
 
 # Mac app
 brew install mas
