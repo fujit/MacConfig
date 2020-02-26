@@ -53,6 +53,9 @@ brew install textql
 brew install jpegoptim
 brew install fzf
 brew install tig
+brew install exa
+brew install ripgrep
+brew install fd
 
 # Mac app
 brew install mas
