@@ -21,11 +21,9 @@ source ~/.zshrc
 # general
 brew cask install google-chrome
 brew cask install firefox
-brew cask install brave-browser
 brew cask install bitwarden
 brew cask install alfred
 brew cask install amazon-music
-brew cask install spotify
 brew cask install appcleaner
 brew cask install cheatsheet
 brew cask install clipy
@@ -40,7 +38,6 @@ brew cask install docker
 brew cask install iterm2
 brew cask install virtualbox
 brew cask install visual-studio-code
-brew cask install owasp-zap
 
 brew install git
 brew install neovim
@@ -56,6 +53,7 @@ brew install tig
 brew install exa
 brew install ripgrep
 brew install fd
+brew install starship
 
 # Mac app
 brew install mas
@@ -76,6 +74,7 @@ fc-cache -vf
 brew tap caskroom/fonts
 brew cask install font-myrica
 brew cask install font-source-han-code-jp
+brew cask install font-fira-code
 
 # nerd 用のフォント
 brew cask install font-hack-nerd-font
@@ -105,15 +104,3 @@ brew install nodebrew
 mkdir -p ~/.nodebrew/src
 nodebrew install-binary latest
 nodebrew use `nodebrew ls`
-
-####################
-# PHP
-####################
-
-# Composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-chmod 777 /usr/local/bin/composer
-
-# php-cs-fixer
-composer global require friendsofphp/php-cs-fixer
