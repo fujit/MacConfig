@@ -23,15 +23,14 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install bitwarden
 brew cask install alfred
-brew cask install amazon-music
 brew cask install appcleaner
-brew cask install cheatsheet
 brew cask install clipy
 brew cask install google-japanese-ime
 brew cask install kindle
-brew cask install qblocker
 brew cask install slack
 brew cask install authy
+brew cask install hyperswitch
+brew cask install spotify
 
 # developer
 brew cask install docker
@@ -61,7 +60,6 @@ mas install 497799835  # Xcode
 mas install 568494494  # Pocket
 mas install 539883307  # LINE
 
-
 ####################
 # font
 ####################
@@ -90,12 +88,10 @@ chsh -s /usr/local/bin/zsh
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 sh ./installer.sh ~/.cache/dein
 
-
 ####################
 # Go
 ####################
 brew install go
-
 
 ####################
 # Node.js
