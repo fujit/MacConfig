@@ -26,7 +26,6 @@ brew cask install alfred
 brew cask install appcleaner
 brew cask install clipy
 brew cask install google-japanese-ime
-brew cask install kindle
 brew cask install slack
 brew cask install authy
 brew cask install hyperswitch
@@ -37,7 +36,9 @@ brew cask install docker
 brew cask install iterm2
 brew cask install virtualbox
 brew cask install visual-studio-code
+brew cask install tableplus
 
+brew install yarn
 brew install git
 brew install neovim
 brew install rmtrash
@@ -100,3 +101,7 @@ brew install nodebrew
 mkdir -p ~/.nodebrew/src
 nodebrew install-binary latest
 nodebrew use `nodebrew ls`
+
+yarn global add \
+  sort-package-json \
+  svgo
