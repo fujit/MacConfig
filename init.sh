@@ -104,4 +104,5 @@ nodebrew use `nodebrew ls`
 
 yarn global add \
   sort-package-json \
-  svgo
+  svgo \
+  markdownlint
