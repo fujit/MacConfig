@@ -36,7 +36,6 @@ brew cask install docker
 brew cask install iterm2
 brew cask install virtualbox
 brew cask install visual-studio-code
-brew cask install tableplus
 
 brew install yarn
 brew install git
@@ -106,3 +105,9 @@ yarn global add \
   sort-package-json \
   svgo \
   markdownlint
+
+
+####################
+# Python
+####################
+brew install pyenv
