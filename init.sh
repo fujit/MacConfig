@@ -30,6 +30,7 @@ brew cask install slack
 brew cask install authy
 brew cask install hyperswitch
 brew cask install spotify
+brew cask install notion
 
 # developer
 brew cask install docker
@@ -46,13 +47,14 @@ brew install zshrc
 brew install zplug
 brew install bat
 brew install textql
-brew install jpegoptim
 brew install fzf
 brew install tig
 brew install exa
 brew install ripgrep
 brew install fd
 brew install starship
+brew install mycli
+brew install pgcli
 
 # Mac app
 brew install mas
