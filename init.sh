@@ -13,7 +13,6 @@ touch ~/.zshrc
 echo export HOMEBREW_CASK_OPTS="--appdir=/Applications" >> ~/.zshrc
 source ~/.zshrc
 
-
 ####################
 # App
 ####################
@@ -31,6 +30,7 @@ brew cask install authy
 brew cask install hyperswitch
 brew cask install spotify
 brew cask install notion
+brew cask install keka
 
 # developer
 brew cask install docker
@@ -48,7 +48,6 @@ brew install zplug
 brew install bat
 brew install textql
 brew install fzf
-brew install tig
 brew install exa
 brew install ripgrep
 brew install fd
@@ -87,6 +86,8 @@ chsh -s /usr/local/bin/zsh
 ####################
 # Vim
 ####################
+
+# dein
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 sh ./installer.sh ~/.cache/dein
 
@@ -105,9 +106,7 @@ nodebrew use `nodebrew ls`
 
 yarn global add \
   sort-package-json \
-  svgo \
   markdownlint
-
 
 ####################
 # Python
