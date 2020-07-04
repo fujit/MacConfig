@@ -32,3 +32,13 @@ sh ./installer.sh ~/.cache/dein
 mkdir -p ~/.nodebrew/src
 nodebrew install-binary latest
 nodebrew use `nodebrew ls`
+
+####################
+# MacOS
+####################
+defaults write com.apple.screencapture name "screenShot"
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+defaults write com.apple.dock mcx-expose-disabled -bool true
+defaults write com.apple.dashboard mcx-disabled -bool true
+defaults write com.apple.screencapture location ~/Downloads
