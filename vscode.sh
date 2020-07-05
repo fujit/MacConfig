@@ -1,42 +1,24 @@
-# language
-## HTML
-code --install-extension mkaufman.HTMLHint
-code --install-extension vincaslt.highlight-matching-tag
+#!/bin/sh
 
-## JavaScript
-code --install-extension dbaeumer.vscode-eslint
+# Programming
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vscodevim.vim
+code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
-code --install-extension joshpeng.sublime-babel-vscode
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension shardulm94.trailing-spaces
+code --install-extension mosapride.zenkaku
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension dtsvet.vscode-wasm
+code --install-extension ms-azuretools.vscode-docker
 code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension wix.vscode-import-cost
+code --install-extension eamodio.gitlens
 
-## Vue
-code --install-extension dariofuzinato.vue-peek
-code --install-extension octref.vetur
-
-## Go
-code --install-extension ms-vscode.Go
-
-## Markdown
+# Markdown
+code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension bierner.markdown-preview-github-styles
 code --install-extension yzhang.markdown-all-in-one
 
-## Solidity
-code --install-extension JuanBlanco.solidity
-
-# Database
-code --install-extension jakebathman.mysql-syntax
-
-# Intellisense
-code --install-extension christian-kohler.path-intellisense
-code --install-extension VisualStudioExptTeam.vscodeintellicode
-
-# beauty
-code --install-extension mosapride.zenkaku
-code --install-extension shardulm94.trailing-spaces
-code --install-extension wayou.vscode-todo-highlight
+# Theme
+code --install-extension harg.iceberg
 code --install-extension dracula-theme.theme-dracula
-
-# others
-code --install-extension vscodevim.vim
-code --install-extension ms-azuretools.vscode-docker
