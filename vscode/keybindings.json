@@ -77,5 +77,34 @@
   {
     "key": "f12",
     "command": "editor.action.goToTypeDefinition"
+  },
+  {
+    "key": "b .",
+    "command": "workbench.action.nextEditor",
+    "when": "vim.mode != 'Insert'"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "b ,",
+    "command": "workbench.action.previousEditor",
+    "when": "vim.mode != 'Insert'"
+  },
+  {
+    "key": "] g",
+    "command": "editor.action.marker.nextInFiles",
+    "when": "editorFocus"
+  },
+  {
+    "key": "[ g",
+    "command": "editor.action.marker.prev",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+f8",
+    "command": "-editor.action.marker.prev",
+    "when": "editorFocus"
   }
 ]
